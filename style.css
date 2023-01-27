@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+.header-link{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./image/slide/R.gif);   
+}
+.src{
+    width: 40%;
+    margin: auto;
+}
+.sear{
+    width: 50%;
+    margin-left: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.logo{
+    width: 20%;
+    font-size: 35px;
+    font-weight: 200;
+}
+.logo a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: #eef0ee;
+}
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    width: 15%;
+    color: #070606;
+    font-size: 14px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icon{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+.icon img{
+    width: 10%;
+    padding: 10px;
+    transform: scale(1.3s);
+}
+ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #d35400;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+ul li a:hover::before{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+    filter: blur(3px);
+}
+.navbar{
+    width: 100%;
+    background: rgb(90, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px; 
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li:hover{
+    background: red;
+    box-shadow: 2px solid black;
+}
+.main{
+    width: 70%;
+    margin: auto;
+}
+.title{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    color: crimson;
+}
+.title1{
+    font-size: 19px;
+    color: blue;
+    padding: 20px;
+}
+.dis{
+    font-size: 18px;
+    padding:5px 10px ;
+}
+.dis1{
+    text-align: center;
+    background-color: azure;
+    width: 100%;
+}
+.slide{
+    width: 90%;
+    margin: auto;
+}
+.slide img{
+    width: 100%;
+}
+.right{
+    width: 40%;
+}
+.slide1{
+    width: 90%;
+    margin: auto;
+}
+.slide1 img{
+    width: 100%;
+}
+.title-right{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: brown;
+}
+.banner video{
+    margin-left: 10px;
+    width: 100%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    
+  }
+  /* title_B */
+  .title_B{
+    font-size: 18px;
+    color: red;  
+    text-align: center;
+    margin-left: 10px;
+}
+  .button-right{
+    right: 10%;
+  }
+  .container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+  }
+  .contant{
+    width: 100%;
+  }
+  .slide-left{
+    width: 100%;
+  }
+  .slide-left img{
+    width: 100%;
+  }
+  .left{
+    width: 60%;
+  }
+/* navbar */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .sp{
+    color: aliceblue;
+    display:none ;
+    margin-left: 90%;
+    border-radius: 10px;
+  }
+  .down{
+    width: 50%;
+    margin: auto;
+  }
+  .down img {
+    width: 90%;
+  }
+  .footer-A{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+    color: #eef0ee;
+    background-color: #818181;
+  }
+  .logo-A{
+    width: 20%;
+  }
+  .logo-A img{
+    width: 40%;
+  }
+  .foot-A{
+    width: 60%;
+  }
+  .foot-A li{
+    display: inline-block;
+    padding: 10px;
+  }
+  .foot-B{
+    width: 20%;
+    margin-top: 10px;
+  }
+  .icon-bar {
+    position: fixed;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .Follow{
+    background: #121213;
+    color: white;
+  }
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
